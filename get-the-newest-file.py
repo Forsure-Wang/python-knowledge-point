@@ -1,4 +1,5 @@
 #/usr/bin/python
+# Get the latest file with given filter in specify derectory
 import os
 def get_file_list(file_path):
   dir_list = os.listdir(file_path)
